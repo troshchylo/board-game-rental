@@ -1,0 +1,204 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "email": "projektPO@gmail.com",
+      "phone": "+48055055055",
+      "password": "Qwerty123_",
+      "name": "Donald",
+      "surname": "McDonald",
+      "registryDate": "2024.01.01"
+    },
+    {
+      "id": 1,
+      "email": "Frontend@front.end",
+      "phone": "+48434234234",
+      "password": "Qwerty!a",
+      "name": "Oleksandr",
+      "surname": "Frontend",
+      "registryDate": "2024.1.24"
+    },
+    {
+      "id": 2,
+      "email": "celujacy@back.end",
+      "phone": "+48159753159",
+      "password": "qwerty123Qw_",
+      "name": "Denys",
+      "surname": "Backend",
+      "registryDate": "2024.1.24"
+    },
+    {
+      "id": 3,
+      "email": "vova@ne.test",
+      "phone": "+48576503012",
+      "password": "testProfi!e",
+      "name": "Vova",
+      "surname": "Tester",
+      "registryDate": "2024.1.25"
+    }
+  ],
+  "rents": [
+    {
+      "userId": 0,
+      "gameId": 5,
+      "beginDate": "2023.12.01",
+      "endDate": null
+    },
+    {
+      "userId": 0,
+      "gameId": 3,
+      "beginDate": "2023.11.15",
+      "endDate": "2023.11.20"
+    },
+    {
+      "userId": 0,
+      "gameId": 3,
+      "beginDate": "2023.11.20",
+      "endDate": "2023.11.27"
+    },
+    {
+      "userId": 0,
+      "gameId": 1,
+      "beginDate": "2023.12.01",
+      "endDate": "2023.12.10"
+    },
+    {
+      "userId": 0,
+      "gameId": 5,
+      "beginDate": "2023.12.05",
+      "endDate": "2023.12.15"
+    },
+    {
+      "userId": 0,
+      "gameId": 2,
+      "beginDate": "2023.12.10",
+      "endDate": "2023.12.20"
+    },
+    {
+      "userId": 0,
+      "gameId": 2,
+      "beginDate": "2023.12.15",
+      "endDate": null
+    },
+    {
+      "userId": 0,
+      "gameId": 1,
+      "beginDate": "2023.12.20",
+      "endDate": null
+    },
+    {
+      "userId": 0,
+      "gameId": 3,
+      "beginDate": "2023.12.25",
+      "endDate": null
+    },
+    {
+      "userId": 0,
+      "gameId": 4,
+      "beginDate": "2023.12.30",
+      "endDate": null
+    },
+    {
+      "userId": 0,
+      "gameId": 5,
+      "beginDate": "2024.01.05",
+      "endDate": null
+    },
+    {
+      "userId": 0,
+      "gameId": 1,
+      "beginDate": "2024.1.24",
+      "endDate": null
+    },
+    {
+      "userId": 0,
+      "gameId": 2,
+      "beginDate": "2024.1.24",
+      "endDate": null
+    },
+    {
+      "userId": 0,
+      "gameId": 3,
+      "beginDate": "2024.1.24",
+      "endDate": null
+    },
+    {
+      "userId": 1,
+      "gameId": 3,
+      "beginDate": "2024.1.24",
+      "endDate": null
+    },
+    {
+      "userId": 0,
+      "gameId": 5,
+      "beginDate": "2024.2.18",
+      "endDate": null
+    }
+  ],
+  "games": [
+    {
+      "gameId": 1,
+      "title": "Hidden Legacy",
+      "amount": 0,
+      "imgPath": "img/Hidden_Legacy.png",
+      "shortDesc": "Embark on an epic battle in a fantasy world.",
+      "longDesc": "Your mission is to uncover secrets in space stations orbiting distant planets. Discover powerful artifacts and shape the fate of worlds."
+    },
+    {
+      "gameId": 2,
+      "title": "Forbidden Chronicles",
+      "amount": 0,
+      "imgPath": "img/Forbidden_Chronicles.png",
+      "shortDesc": "Embark on a thrilling adventure in a post-apocalyptic future.",
+      "longDesc": "Your mission is to uncover secrets in vast landscapes brimming with diverse cultures. Navigate complex relationships and make critical choices."
+    },
+    {
+      "gameId": 3,
+      "title": "Radiant Kingdom",
+      "amount": 0,
+      "imgPath": "img/Radiant_Kingdom.png",
+      "shortDesc": "Embark on a thrilling adventure in a post-apocalyptic future.",
+      "longDesc": "Your mission is to uncover secrets in enigmatic realms filled with ancient mysteries. Discover powerful artifacts and shape the fate of worlds."
+    },
+    {
+      "gameId": 4,
+      "title": "Forbidden Realm",
+      "amount": 0,
+      "imgPath": "img/Forbidden_Realm.png",
+      "shortDesc": "Embark on a thrilling adventure in a fantasy world.",
+      "longDesc": "Your mission is to uncover secrets in ruined civilizations, learning about their forgotten past. Battle foes, gather resources, and build your own empire."
+    },
+    {
+      "gameId": 5,
+      "title": "Shadow Empire",
+      "amount": 3,
+      "imgPath": "img/Shadow_Empire.png",
+      "shortDesc": "Embark on a thrilling adventure in a fantasy world.",
+      "longDesc": " Prepare to face challenges in space stations orbiting distant planets. Navigate complex relationships and make critical choices."
+    }
+  ],
+  "opinions": [
+    {
+      "userId": 0,
+      "content": "Bardzo ladnie, polecam",
+      "stars": 5
+    },
+    {
+      "userId": 1,
+      "content": "Super, fajnie!!!",
+      "stars": 4
+    },
+    {
+      "userId": 3,
+      "content": "Nie podoba mi się testowanie :(((((",
+      "stars": 1
+    }
+  ],
+  "problems": [
+    {
+      "id": 0,
+      "userId": 0,
+      "content": "Miałem problem z odebraniem gry"
+    }
+  ]
+}

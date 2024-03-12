@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital@0;1&family=Jomhuria&display=swap" rel="stylesheet">
+    <title>Stajnia Gier</title>
+</head>
+<body>
+    <div class="nav">
+        <a href="index.html"><div class="nav-block">Strona glówna</div></a>
+        <a href="oferta.html"><div class="nav-block">Oferta</div></a>
+        <a href="problem.html"><div class="nav-block">Zgloś problem</div></a>
+        <a href="opinie.html"><div class="nav-block">Opinie</div></a>
+        <div class="nav-block nav-block-active nav-profil"><img src="img/profil-img.png" alt="Profil"></div>
+    </div>
+    
+    <div class="profil-container">
+        <div class="profil-menu">
+            <a href="profil_dane.html"><div class="profil-block">Dane osobowe</div></a>
+            <div class="profil-block profil-block-active">Aktywne wypożyczenia</div>
+            <a href="rent_history.html"><div class="profil-block">Historia wypożyczeń</div></a>
+            <button id="logout" class="logout bttn">Wyloguj się</button>
+        </div>
+        <div class="profil-context">
+            <ul id="item_list" class="item">
+            </ul>
+        </div>
+    </div>
+
+    <script type="module" src="scripts/active_rents.js"></script>
+    <script type="module" src="scripts/logoutHandler.js"></script>
+</body>
+</html>
